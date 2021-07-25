@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+:root{
+    --primary-color:#63FFFC;
+    }
+body
+{
+font-family: 'Libre Franklin', sans-serif;
+overflow-x: hidden
+}
+
+.container{
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color:var(--primary-color);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-color: var(--primary-color);
+    border-color: white;
+    width: 600px;
+    height: 8rem;
+    display: block;
+    margin:auto;
+    color:  white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
+    
+    }
+    .container-footer{
+    
+        padding-left: 5rem;
+        padding-right: 5rem;
+        background-color:var(--primary-color);
+        border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+        border-color: var(--primary-color);
+        border-color: white;
+        width: 1200px;
+        height: 8rem;
+        display: block;
+        margin:auto;
+        color:  white;
+        text-align: center;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        
+        
+        }
+.list-non-bullet{
+    list-style:none;
+    text-align: right;
+    text-align: end;
+    
+    }
+.list-inline-list{
+    display: inline;
+    padding: 0.5rem 0rem;
+    text-align: end;
+}
+
+.primary-link {
+    color:white;
+    padding:5rem;
+    text-underline-position: auto;
+    text-decoration: var(--primary-color);
+    font-size: large;
+    font-weight: bold;
+    
+    
+    
+}
+.primary-link-section {
+    color: darkgrey;
+
+    text-underline-position: auto;
+    text-decoration: white;
+    
+    font-size: large;
+    font-weight: bold;
+    
+    
+    
+}
+.primary-link-footer{
+    padding-left: 8rem;
+     padding-right: 8rem;
+     padding-top: 10rem;
+     padding-bottom:0rem;
+    color:white;
+
+    text-underline-position: auto;
+    text-decoration: var(--primary-color);
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+a:hover{
+    
+    text-decoration: underline;
+    
+}
+.secondary-link {
+    color:whitesmoke;
+    text-align: right;
+    text-decoration: var(--primary-color);
+    font-size: large;
+    font-weight: bold;
+}
+.image{
+    width: 30%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#lib-header{
+    color:darkgray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+
+
+
+
